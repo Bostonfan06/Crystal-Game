@@ -1,0 +1,19 @@
+body {background: url(http://desktopgraphy.com/wp-content/uploads/2016/10/photography-ice-crystals-winter-crystal-gallery.jpg);}
+
+#header {background: black;
+color: teal;
+text-align: center;
+padding-top: 5px;
+}
+
+#directions {background:rgba(255, 255, 255, 0.219);
+width: 500px;
+height: 450px;
+margin-top: 20px;
+}
+
+p {color: white;
+text-align: center;
+font-size: 15px;
+line-height: 2;
+}
