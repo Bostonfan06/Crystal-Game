@@ -1,4 +1,4 @@
-body {background: url(http://desktopgraphy.com/wp-content/uploads/2016/10/photography-ice-crystals-winter-crystal-gallery.jpg);}
+body {background: orange;}
 
 #header {background: black;
 color: teal;
@@ -18,14 +18,14 @@ font-size: 15px;
 line-height: 2;
 }
 
-#boxnum {background: black;
+#numbertomatch {background: black;
 width: 200px;
 height: 200px;
 text-align: center;
 
 }
 
-#number {padding-top: 40px;
+#randomNumber {padding-top: 40px;
 font-size: 80px;
  }
 
@@ -35,6 +35,17 @@ height: 200px;
 text-align: center;
 }
 
-#score {padding-top: 50px;
+#winsandlosses {padding-top: 40px;
 font-size: 32px;
+}
+
+.crystals {margin-left: 350px;
+}
+
+.gemImage {height: 125px;
+margin-top: 40px;
+}
+
+.userTotal {margin-top: 40px;
+    margin-left: 500px;
 }
