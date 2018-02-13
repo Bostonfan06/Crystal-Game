@@ -22,6 +22,7 @@ line-height: 2;
 width: 200px;
 height: 200px;
 text-align: center;
+margin-top: 30px;
 
 }
 
@@ -33,10 +34,12 @@ font-size: 80px;
 width: 200px;
 height: 200px;
 text-align: center;
+margin-top: 30px;
 }
 
 #winsandlosses {padding-top: 40px;
 font-size: 32px;
+padding-top: 35px;
 }
 
 .crystals {margin-left: 350px;

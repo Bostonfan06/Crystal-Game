@@ -29,7 +29,7 @@ $(document).ready(function(){
         $('#finalTotal').text(userTotal)
     }
 
-    function yay(){
+    function winners(){
         alert("You Won!")
         wins++
         $('#numberWins').text(wins)
@@ -49,7 +49,7 @@ $(document).ready(function(){
     $('#finalTotal').text(userTotal)
 
         if (userTotal == Random) {
-            yay()
+            winners()
         }
         else if (userTotal > Random){
             losers()
@@ -62,7 +62,7 @@ $(document).ready(function(){
  $('#finalTotal').text(userTotal)
 
      if (userTotal == Random) {
-         yay()
+         winners()
      }
      else if (userTotal > Random){
          losers()
@@ -75,7 +75,7 @@ $('#three').on('click', function(){
  $('#finalTotal').text(userTotal)
 
      if (userTotal == Random){
-         yay()
+         winners()
      }
      else if (userTotal > Random){
          losers()
@@ -88,7 +88,7 @@ $('#four').on('click', function(){
  $('#finalTotal').text(userTotal)
 
      if (userTotal == Random){
-         yay()
+         winners()
      }
      else if (userTotal > Random){
          losers()
