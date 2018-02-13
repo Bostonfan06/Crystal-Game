@@ -1,12 +1,15 @@
-body {background: orange;}
+body {background-image: url(https://static.pexels.com/photos/4827/nature-forest-trees-fog.jpeg);}
 
-#header {background: black;
-color: teal;
+#header {color: black;
 text-align: center;
+font-family: fantasy;
+margin-top: 20px;
 padding-top: 5px;
 }
 
-#directions {background:rgba(255, 255, 255, 0.219);
+h3 {font-size: 50px;}
+
+#directions {background: rgba(34, 56, 33, 0.562);
 width: 500px;
 height: 450px;
 margin-top: 20px;
@@ -23,22 +26,29 @@ width: 200px;
 height: 200px;
 text-align: center;
 margin-top: 30px;
+margin-left: 285px;
 
 }
 
-#randomNumber {padding-top: 40px;
-font-size: 80px;
+#randomNumber {color: rgb(11, 43, 11);
+padding-top: 40px;
+font-size: 115px;
  }
+
+ h2 {margin-top: 30px;}
 
 #boxscore {background: white;
 width: 200px;
 height: 200px;
 text-align: center;
 margin-top: 30px;
+margin-left: 85px;
+margin-right: 285px;
 }
 
 #winsandlosses {padding-top: 40px;
 font-size: 32px;
+margin-top: 30px;
 padding-top: 35px;
 }
 
@@ -49,6 +59,8 @@ padding-top: 35px;
 margin-top: 40px;
 }
 
-.userTotal {margin-top: 40px;
+.userTotal {color: white;
+    font-size: 30px;
+    margin-top: 40px;
     margin-left: 500px;
 }
